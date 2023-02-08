@@ -1,0 +1,27 @@
+body {
+    background-image: url('HomescreenS1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#navbar {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #F0F7F4;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link{
+    font-size: 25px;
+
+}
