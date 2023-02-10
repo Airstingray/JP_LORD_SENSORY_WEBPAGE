@@ -1,8 +1,12 @@
-body {
+#home_body {
     background-image: url('HomescreenS1.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+#sensory_room_body {
+    background-color: #F0F7F4;
 }
 
 #navbar {
@@ -23,5 +27,24 @@ body {
 
 .nav-link{
     font-size: 25px;
-
 }
+
+#test{
+    background-color: blue;
+}
+
+#test_box{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 30px;
+    background-color: #70ABAF;
+}
+
+.bubble {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(0, 26, 255);
+  }
