@@ -1,0 +1,108 @@
+#home_body {
+    background-image: url('HomescreenS1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#sensory_room_body {
+    background-color: #F0F7F4;
+}
+
+#navbar {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #F0F7F4;
+}
+
+#navbar ul li{
+    display: inline;
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+#test{
+    background-color: blue;
+}
+
+#test_box{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 30px;
+    background-color: #70ABAF;
+}
+
+.bubble {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    opacity: .6;
+    border-style: solid;
+  }
+
+#bubblecolumn{
+    background-color: black;
+}
+
+.customButton{
+    background-color: #772D8B;
+    border-radius: 30px;
+    color: #F0F7F4;
+}
+
+html, body{
+    height: 100%;
+}
+
+.coverPhoto{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#sensory_room_option_title{
+    text-align: center;
+}
+
+#changeScreenSize{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#setting{
+    font-size: 30px;
+}
+
+#settingButton{
+    background-color: #F0F7F4;
+    border-width: 0;
+    border-color: #F0F7F4;
+}
+
+#video, #canvas {
+    display: none;
+  }
+
+#pixel-canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    margin-left: -2%; 
+}
+  
