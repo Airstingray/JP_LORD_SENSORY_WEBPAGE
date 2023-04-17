@@ -1,0 +1,74 @@
+
+#navbar {
+    text-align: center;
+    margin-top: 40px;
+    background-color: #F0F7F4;
+}
+
+#navbar ul li{
+    display: inline;
+}
+#sensory_room_body {
+    background-image: url('SensoryRoomS1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.nav-link{
+    font-size: 25px;
+}
+
+#test{
+    background-color: blue;
+}
+
+#test_box{
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    margin-bottom: 30px;
+    background-color: #70ABAF;
+    align-items: center;
+}
+
+
+html, body{
+    height: 100%;
+}
+
+
+
+#sensory_room_option_title{
+    text-align: center;
+}
+
+
+
+#setting{
+    font-size: 30px;
+}
+
+#settingButton{
+    background-color: #F0F7F4;
+    border-width: 0;
+    border-color: #F0F7F4;
+}
+
+
+#canvas {
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 35%;
+    margin-top: 5%;
+  }
+  
+
+ 

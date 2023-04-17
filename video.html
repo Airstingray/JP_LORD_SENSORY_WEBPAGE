@@ -10,7 +10,7 @@
     <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css”/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
 </head>
-<body id="playground_body">
+<body id="sensory_room_body">
   <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -50,127 +50,53 @@
     </div>
   </div>
 
-  <br>
-      <br>
-      <br>
-      <br>
-
-      <div class="container" >
-
-
-        <div class="row justify-content-md-center">
-          
-          <div class="col-sm-auto" >
-            
-          </div>
-          <div class="col col-lg-5" id="test_box">
-            <a href="connectFour.html" id="navToFour">Connect Four</a>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-          </div>
-          <div class="col-sm-auto" >
-            
-          </div>
-          
-           
-         
-        </div>
-
-
-        <div class="row justify-content-md-center">
-          
-          
-            <div class="col-sm-auto" >
-              
-            </div>
-            <div class="col col-lg-5" id="test_box">
-              <a href="BuildingBlocks.html" id="navToBlocks">Building Block</a>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-            </div>
-            <div class="col-sm-auto" >
-              
-            </div>
-
-            <div class="col col-lg-5" id="test_box">
-              <a href="fallingObjects.html" id="navToFalling">Falling Objects</a>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-            </div>
-            <div class="col-sm-auto" >
-              
-            </div>
-            
-            
-             
-           
-          </div>
-
-          <div class="row justify-content-md-center">
-          
-          
-            <div class="col-sm-auto" >
-              
-            </div>
-            <div class="col col-lg-5" id="test_box">
-              <a href="animals.html" id="navToAnimals">Animals</a>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-            </div>
-            <div class="col-sm-auto" >
-              
-            </div>
-
-            <div class="col col-lg-5" id="test_box">
-              <a href="BuildingBlocks.html" id="navToBlocks"></a>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-            </div>
-            <div class="col-sm-auto" >
-              
-            </div>
-            
-            
-             
-           
-          </div>
+  <div class="container">
+    <div class="row justify-content-md-center">
+      
+      <div class="col col-lg-2" id="test_box">
+        <br>
+        <button id="clearfilter" class="customButton">Clear Filter</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
         
       </div>
+
+      <div class="col-sm-auto" >
+      </div>
+
+      <div class="col" >
+        <video id="video" autoplay></video>
+        <canvas id="canvas"></canvas>
+        <canvas id="pixel-canvas"></canvas>
+      </div>
+
+      <div class="col-sm-auto" >
+      </div>
+
+      <div class="col col-lg-2" id="test_box">
+        <br>
+        <button id="colorChangeOnlyRed" class="customButton">Only Red</button>
+        <button id="colorChangeOnlyGreen" class="customButton">Only Green</button>
+        <button id="colorChangeOnlyBlue" class="customButton">Only Blue</button>
+        <button id="colorBlindGB" class="customButton"> Deuteranopia </button>
+        <button id="colorBlindBY" class="customButton"> Tritanopia </button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+    </div>
+
 
 
 

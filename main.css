@@ -6,13 +6,36 @@
 }
 
 #sensory_room_body {
-    background-color: #F0F7F4;
+    background-image: url('SensoryRoomS1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#playground_body{
+    background-image: url('PlaygroundS1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#about_body{
+    background-image: url('HomescreenS1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #navbar {
     text-align: center;
     margin-top: 40px;
-    background-color: #F0F7F4;
+    background-color: #F0F7F4; 
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
 }
 
 #navbar ul li{
@@ -39,6 +62,7 @@
     border-style: solid;
     margin-bottom: 30px;
     background-color: #70ABAF;
+    align-items: center;
 }
 
 .bubble {
@@ -58,6 +82,9 @@
     background-color: #772D8B;
     border-radius: 30px;
     color: #F0F7F4;
+    font-size: .75vw;
+    text-align: center;
+    
 }
 
 html, body{
@@ -105,4 +132,25 @@ html, body{
     margin-top: 0%;
     margin-left: -2%; 
 }
+
+#sandWrapper{
+    display: flex;
+    justify-content: center;
+}
   
+#sandContainer{
+    width: 1000px;
+    height: 500px;
+    background-color: black;
+    
+}
+
+canvas {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #ccc;
+    background-color: black;
+
+  }
+
+ 
